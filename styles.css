@@ -229,6 +229,17 @@
   opacity: 0.35;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-area {
+  grid-area:  1/1;
+  align-self: center;
+  justify-self: center;
+}
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navbar {
